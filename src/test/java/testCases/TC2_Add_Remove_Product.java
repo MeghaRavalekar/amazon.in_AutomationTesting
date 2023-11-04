@@ -1,16 +1,14 @@
 package testCases;
-
 import org.testng.annotations.Test;
 import baseClass.BaseClass;
 import pageFactory.LoginPage;
 import pageFactory.ProductPage;
 
 public class TC2_Add_Remove_Product extends BaseClass {
-
-	@Test
+       @Test
 	public void BuyProducts() throws InterruptedException {
 
-		LoginPage Login_Ob = new LoginPage(driver);
+               LoginPage Login_Ob = new LoginPage(driver);
 
 		ProductPage ProductPage_Ob = new ProductPage(driver);
 
