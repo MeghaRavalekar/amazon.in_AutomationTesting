@@ -12,7 +12,7 @@ public class TC1_Login extends BaseClass {
 		// click on Sign in button
 		Login_Ob.ClickSignin();
 		// Enter username and password, click on sign in Btn
-                Login_Ob.Login("9699445909", "Test@1234");
+                Login_Ob.Login("11223344", "aabbccdd");
 		// Verify user is loggedin on not
 		Login_Ob.VerifyUserLogin();
                 // Logout
