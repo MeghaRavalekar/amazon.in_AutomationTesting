@@ -15,7 +15,7 @@ public class TC3_PlaceOrder extends BaseClass {
 		// click on Sign in button
 		Login_Ob.ClickSignin();
 		// Enter username and password, click on sign in Btn
-		Login_Ob.Login("9699445909", "Test@1234");
+		Login_Ob.Login("11223344", "aabbccdd");
 		// click on header cart button
 		ProductPage_Ob.OpenHeaderCart();
 		// check cart items
