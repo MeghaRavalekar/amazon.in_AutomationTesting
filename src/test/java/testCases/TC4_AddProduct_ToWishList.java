@@ -15,7 +15,7 @@ public class TC4_AddProduct_ToWishList extends BaseClass {
 		// click on Sign in button
 		Login_Ob.ClickSignin();
 		// Enter username and password, click on sign in Btn
-		Login_Ob.Login("mravalekar@gmail.com", "MSR@!4!2");
+		Login_Ob.Login("11223344", "aabbccdd");
 		// Hover on Account And List text
 		// click on your wish list
 		Login_Ob.ClickYourWishList();
